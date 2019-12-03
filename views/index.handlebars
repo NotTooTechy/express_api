@@ -1,0 +1,7 @@
+<h1 class="text-centre mb-3">{{title}}</h1>
+<h4>Members</h4>
+<ul class="list-group">
+	{{#each members_dict}}
+		<li class="list-group-item" >{{this.name}}: {{this.email}}</li>
+	{{/each}}
+</ul>
