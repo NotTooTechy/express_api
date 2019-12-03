@@ -35,7 +35,8 @@ router.post('/', (req, res) => {
 	};
 	members.push(new_member);
 	// member.save(new_member); ... database way
-	res.json(members);
+	//res.json(members);
+	res.redirect('/');
 });
 
 // Update a member
